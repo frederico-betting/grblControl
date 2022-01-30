@@ -12,8 +12,10 @@ GRBL controller application with G-Code visualizer written in Qt.
 
 Ubuntu 20.x
 
+All dependecies MUST be 32-bits (i386).
+
 ```shell
-$ sudo apt-get install libgl1-mesa-glx:i386
+$ sudo apt-get install libgl1-mesa-glx:i386 libgtk2.0-0:i386 libsm6:i386
 ```
 
 ## Versions
