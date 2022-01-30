@@ -1,12 +1,22 @@
-grblControl
------------
+# grblControl
+
 GRBL controller application with G-Code visualizer written in Qt.
 
-Supported functions:
+### Supported functions:
 * Controlling GRBL-based cnc-machine via console commands, buttons on form, numpad.
 * Monitoring cnc-machine state.
 * Loading, editing, saving and sending of G-code files to cnc-machine.
 * Visualizing G-code files.
+
+## Dependencies
+
+Ubuntu 20.x
+
+```shell
+$ sudo apt-get install libgl1-mesa-glx:i386
+```
+
+## Versions
 
 Version 0.8 release:
 --------------------
